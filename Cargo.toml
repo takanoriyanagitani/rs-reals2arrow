@@ -1,0 +1,36 @@
+[package]
+name = "rs-reals2arrow"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.half]
+version = "2"
+default-features = false
+features = [
+	"std",
+]
+
+[features]
+default = [
+	"sync",
+	"fs",
+]
+
+sync = [
+]
+
+fs = [
+]
