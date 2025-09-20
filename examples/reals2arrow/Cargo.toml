@@ -1,0 +1,12 @@
+[package]
+name = "reals2arrow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-reals2arrow]
+path = "../.."
+default-features = false
+features = [
+	"fs",
+	"sync",
+]
