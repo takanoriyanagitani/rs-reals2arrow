@@ -3,6 +3,13 @@ name = "rs-reals2arrow"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the float values to an Arrow array."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-reals2arrow"
+homepage = "https://github.com/takanoriyanagitani/rs-reals2arrow"
+documentation = "https://docs.rs/rs-reals2arrow/latest"
+keywords = ["arrow", "binary-file-conversion", "array"]
+
 [lints.rust]
 unsafe_code = "forbid"
 
